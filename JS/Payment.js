@@ -1,4 +1,6 @@
-function Payment(){
+class Payment{
+    construrtor(){
 
-    this.id;
+        this.id;
+    }
 }
