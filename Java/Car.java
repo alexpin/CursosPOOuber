@@ -9,14 +9,31 @@ public class Car {
 
        this.license = license;
        this.driver = driver; 
-       passegenger = 3;
+       //passegenger = 3;
 
        }
 
     void prinDataCar(){
-        System.out.println("Passengers: " + passegenger);
-        System.out.println("License: " + license + " Name Driver: " + driver.name + " Passengers: " + passegenger);
+        //System.out.println("Passengers: " + passegenger);
+        if (passegenger != null) {
+            System.out.println("License: " + license + " Name Driver: " + driver.name + " Passengers: " + passegenger);
+        } 
         
     }
+
+    public Integer getPassegenger() {
+        return passegenger;
+    }
+
+    public void setPassegenger(Integer passegenger) {
+        if (passegenger == 4) {
+            this.passegenger = passegenger;
+        }else{
+            System.out.println("Necesitas asignar 4 pasajeros");
+        }
+        
+    }
+
+    
     
 }
