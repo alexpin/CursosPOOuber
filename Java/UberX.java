@@ -9,5 +9,12 @@ public class UberX extends Car{
 
 
     }
+
+    void prinDataCar(){
+
+        super.prinDataCar();
+        System.out.println("Modelo: " + model + " Brand: " + brand);
+
+    }
     
 }

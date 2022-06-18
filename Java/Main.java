@@ -8,6 +8,9 @@ public class Main {
         uberX.setPassegenger(4); 
         uberX.prinDataCar();
 
+        UberVan uberVan = new UberVan("FGH345",  new Account("Andres Herrera", "AND123"));
+        uberVan.setPassegenger(6);
+        uberVan.prinDataCar();
 
         /*Car car2 = new Car("QME567", new Account("Andrea Herrera", "ANDA876"));
         car2.passegenger = 3;
